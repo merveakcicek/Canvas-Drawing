@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  padding: 30px;
+  overflow: hidden;
+  background: rgb(233, 133, 40);
+}
+
+canvas {
+  box-shadow: -3px 2px 9px 6px rgb(14, 124, 82);
+  cursor: pointer;
+}
+.tools {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 45px;
+}
+
+.tools .color-field {
+  height: 40px;
+  width: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 2px solid rgb(7, 7, 7);
+  align-self: center;
+  margin: 0 10px;
+}
+
+.color-picker {
+  height: 40px;
+}
+
+.button {
+  height: 40px;
+  width: 90px;
+  border: 2px;
+}
